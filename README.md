@@ -1,103 +1,99 @@
-#Stately
-Stately is a symbol font that makes is easy to create a map of the United States using only HTML and CSS. Each state can be styled independently with CSS for making simple visualizations. And since it's a font, it scales bigger and smaller while staying sharp as a tack.
+#Prefectly
+Prefectly はHTMLとCSSだけを使って日本地図を簡単に表示できるシンボルフォントです。各都道府県はCSSで個別にスタイルをつけられるのでシンプルなビジュアライゼーションに利用できます。そして、フォントなので自由に拡大縮小できます。  
+Prefectly is a symbol font that makes is easy to create a map of the Japan using only HTML and CSS. Each prefecture can be styled independently with CSS for making simple visualizations. And since it's a font, it scales bigger and smaller while staying sharp as a tack.
+
 
 ##Files
     map.svg      - SVG map used to create the font
     assets\font  - Folder containing the web-font files
-    assets\sass  - Folder containing basic Sass files, including both Stately setup and stately.html demo customizations
+    assets\sass  - Folder containing basic Sass files, including both Prefectly setup and prefectly.html demo customizations
     assets\css   - Folder containing compiled CSS files
-    stately.html - Basic Demo
-    stately.svg  - SVG font file
-    stately.ttf  - TrueType font file
+    prefectly.html - Basic Demo
+    prefectly.ttf  - TrueType font file
     
 
-##What is Stately?
-Each state is a glyph within the font. Each state is positioned and sized relative to the the rest of the states, so that when each character is stacked on top of one another, it creates a full map.
-The pertinent characters are uppercase A-Z and lowercase a-z with lowercase y generating the District of Columbia and lowercase z generating a full US map.
-For modern browsers ligatures are available and a state's abbreviation is its ligature. For example, "va" generates the glyph of the state of Virginia and 'dc' the District of Columbia. Additionally, the ligature "usa" produces a character of the full US map.
+##What is Prefectly?
+Each prefecture is a glyph within the font. Each prefecture is positioned and sized relative to the the rest of the prefectures, so that when each character is stacked on top of one another, it creates a full map.
+The pertinent characters are uppercase A-Z and lowercase a-u with lowercase u generating Yamanashi prefecture and lowercase z generating a full Japan map.
 
 ##Basic Use Case
-You can use stately however you like, but some base Sass/CSS and HTML is included.
-Download and add the Stately folder to your project which includes the base CSS and the web font files. Grab the stately folder and add it to your project. Then add the stately.css to the head of your document.
+You can use Prefectly however you like, but some base Sass/CSS and HTML is included.
+Download and add the Prefectly folder to your project which includes the base CSS and the web font files. Grab the prefectly folder and add it to your project. Then add the prefectly.css to the head of your document.
 
 ```html
-<link rel="stylesheet" href="assets/css/stately.css">
+<link rel="stylesheet" href="assets/css/prefectly.css">
 ```
 
 Then add this markup to the page:
 
 ```html
-<ul class="stately"> 
-    <li data-state="al" class="al">A</li>
-    <li data-state="ak" class="ak">B</li>
-    <li data-state="ar" class="ar">C</li>						
-    <li data-state="az" class="az">D</li>
-    <li data-state="ca" class="ca">E</li>
-    <li data-state="co" class="co">F</li>
-    <li data-state="ct" class="ct">G</li>
-    <li data-state="de" class="de">H</li>
-    <li data-state="dc" class="dc">I</li>
-    <li data-state="fl" class="fl">J</li>
-    <li data-state="ga" class="ga">K</li>
-    <li data-state="hi" class="hi">L</li>
-    <li data-state="id" class="id">M</li>
-    <li data-state="il" class="il">N</li>
-    <li data-state="in" class="in">O</li>
-    <li data-state="ia" class="ia">P</li>
-    <li data-state="ks" class="ks">Q</li>
-    <li data-state="ky" class="ky">R</li>
-    <li data-state="la" class="la">S</li>
-    <li data-state="me" class="me">T</li>
-    <li data-state="md" class="md">U</li>
-    <li data-state="ma" class="ma">V</li>
-    <li data-state="mi" class="mi">W</li>
-    <li data-state="mn" class="mn">X</li>
-    <li data-state="ms" class="ms">Y</li>
-    <li data-state="mo" class="mo">Z</li>
-    <li data-state="mt" class="mt">a</li>
-    <li data-state="ne" class="ne">b</li>
-    <li data-state="nv" class="nv">c</li>
-    <li data-state="nh" class="nh">d</li>
-    <li data-state="nj" class="nj">e</li>
-    <li data-state="nm" class="nm">f</li>
-    <li data-state="ny" class="ny">g</li>
-    <li data-state="nc" class="nc">h</li>
-    <li data-state="nd" class="nd">i</li>
-    <li data-state="oh" class="oh">j</li>			
-    <li data-state="ok" class="ok">k</li>
-    <li data-state="or" class="or">l</li>
-    <li data-state="pa" class="pa">m</li>
-    <li data-state="ri" class="ri">n</li>
-    <li data-state="sc" class="sc">o</li>
-    <li data-state="sd" class="sd">p</li>
-    <li data-state="tn" class="tn">q</li>
-    <li data-state="tx" class="tx">r</li>
-    <li data-state="ut" class="ut">s</li>
-    <li data-state="va" class="va">t</li>
-    <li data-state="vt" class="vt">u</li>			
-    <li data-state="wa" class="wa">v</li>
-    <li data-state="wv" class="wv">w</li>
-    <li data-state="wi" class="wi">x</li>
-    <li data-state="wy" class="wy">y</li>
+<ul class="prefectly" id="plain">
+	<li data-pref="ac" class="ac">A</li>
+	<li data-pref="ak" class="ak">B</li>
+	<li data-pref="am" class="am">C</li>
+	<li data-pref="cb" class="cb">D</li>
+	<li data-pref="eh" class="eh">E</li>
+	<li data-pref="fk" class="fk">F</li>
+	<li data-pref="fo" class="fo">G</li>
+	<li data-pref="fs" class="fs">H</li>
+	<li data-pref="gf" class="gf">I</li>
+	<li data-pref="gm" class="gm">J</li>
+	<li data-pref="hg" class="hg">K</li>
+	<li data-pref="hk" class="hk">L</li>
+	<li data-pref="hs" class="hs">M</li>
+	<li data-pref="ig" class="ig">N</li>
+	<li data-pref="ik" class="ik">O</li>
+	<li data-pref="it" class="it">P</li>
+	<li data-pref="ka" class="ka">Q</li>
+	<li data-pref="kg" class="kg">R</li>
+	<li data-pref="km" class="km">S</li>
+	<li data-pref="kn" class="kn">T</li>
+	<li data-pref="ko" class="ko">U</li>
+	<li data-pref="kt" class="kt">V</li>
+	<li data-pref="me" class="me">W</li>
+	<li data-pref="mg" class="mg">X</li>
+	<li data-pref="mz" class="mz">Y</li>
+	<li data-pref="ng" class="ng">Z</li>
+	<li data-pref="nn" class="nn">a</li>
+	<li data-pref="nr" class="nr">b</li>
+	<li data-pref="ns" class="ns">c</li>
+	<li data-pref="on" class="on">d</li>
+	<li data-pref="os" class="os">e</li>
+	<li data-pref="ot" class="ot">f</li>
+	<li data-pref="oy" class="oy">g</li>
+	<li data-pref="sa" class="sa">h</li>
+	<li data-pref="sg" class="sg">i</li>
+	<li data-pref="sn" class="sn">j</li>
+	<li data-pref="so" class="so">k</li>
+	<li data-pref="st" class="st">l</li>
+	<li data-pref="tg" class="tg">m</li>
+	<li data-pref="tk" class="tk">n</li>
+	<li data-pref="to" class="to">o</li>
+	<li data-pref="tt" class="tt">p</li>
+	<li data-pref="ty" class="ty">q</li>
+	<li data-pref="wk" class="wk">r</li>
+	<li data-pref="yg" class="yg">s</li>
+	<li data-pref="ym" class="ym">t</li>
+	<li data-pref="yn" class="yn">u</li>
 </ul>
 ```
     
 Set the size and base map color in your CSS:
 
 ```css
-.stately {
+.prefectly{
     width: 300px;     /* width and font size must match */
     font-size: 300px; /*width and font size must match */
     color: #f0f0f0;
 }
 ```
     
-Style Individual State:
+Style Individual Prefecture:
 
 ```css
-.stately .va,
-.stately .md,
-.stately .dc { 
+.prefectly .ac,
+.prefectly .hk,
+.prefectly .st{ 
    color: #FF0000;
 }
 ```
@@ -106,23 +102,25 @@ If you are not using Sass for your project, you can use and edit the compiled CS
     
 ##Live Example
 
-[Stately Microsite](http://intridea.github.com/stately/)
+[Prefectly Microsite](http://deform.jp/prefectly/)
 
 ##Resources
 
 [Free Online Font Converter](http://www.freefontconverter.com) - For converting SVG to TTF  
 [Font Squirrel](http://www.fontsquirrel.com/fontface/generator) - For converting TTF to web fonts (make sure you check 'no subsetting')  
 [Intridea Blog: How to Make Your Own Symbol Font](http://www.intridea.com/blog/2012/4/24/symbol-font) - A good starting place
+
 ##Credits
 
-Created by Ben Markowitz at Intridea. 
+Created by Hiroto Sugita at deform. 
 
-Ben Markowitz  
-[twitter](http://www.twitter.com/bpmarkowitz)  
-[website](http://www.benmarkowitz.com)  
+Hiroto Sugita  
+[Twitter](http://www.twitter.com/hrtsgt)  
+[Website](http://args.in)  
 
-Intridea  
-[website](http://www.intridea.com)  
+deform  
+[Twitter](http://www.twitter.com/deformjp)  
+[Website](http://deform.jp)  
 
 ##License
 
@@ -130,4 +128,4 @@ MIT License. See LICENSE for details.
 
 ##Copyright
 
-Copyright (c) 2013 Intridea, Inc.
+Copyright (c) 2013 deform.jp
