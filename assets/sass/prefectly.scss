@@ -7,27 +7,167 @@
 *************************************/
 
 .prefectly{
-	background: #f2f2f2;
+	background: #f6f6f6;
 	border-radius: 10px;
-	border-top: 1px solid #dddddd;
+	border-top: 1px solid #e4e4e4;
+	color: #CCC;
 }
 
-#intrideans{
-	color: #b0b0b0;
-	.ca,
-	.co,
-	.dc,
-	.fl,
-	.ks,
-	.md,
-	.mn,
-	.mi,
-	.nj,
-	.ny,
-	.oh,
-	.va,
-	.wa,
-	.wy{
-		color: #a3d07e;
+#plain{
+	color: #666;
+}
+
+#visited{
+	.am,
+	.cb,
+	.eh,
+	.fs,
+	.gf,
+	.gm,
+	.hk,
+	.hs,
+	.ig,
+	.ik,
+	.ka,
+	.kg,
+	.kn,
+	.kt,
+	.ng,
+	.nr,
+	.ns,
+	.os,
+	.oy,
+	.so,
+	.st,
+	.tk,
+	.wy,
+	.yg{
+		color: #52a3cc;
+	}
+}
+
+#region{
+	.hk{
+		color: #e55c5c;
+	}
+	.am,
+	.ak,
+	.fs,
+	.it,
+	.mg,
+	.ym{
+		color: #e5a15c;
+	}
+	.cb,
+	.gm,
+	.ig,
+	.kn,
+	.st,
+	.tg,
+	.tk{
+		color: #cccc7a;
+	}
+	.ac,
+	.fk,
+	.gf,
+	.ik,
+	.ng,
+	.nn,
+	.so,
+	.ty,
+	.yn{
+		color: #7acc7a;
+	}
+	.hg,
+	.kt,
+	.me,
+	.nr,
+	.os,
+	.sg,
+	.wk{
+		color: #7a88cc;
+	}
+	.hs,
+	.oy,
+	.sn,
+	.tt,
+	.yg{
+		color: #5c73e5;
+	}
+	.to,
+	.ka,
+	.eh,
+	.ko{
+		color: #b17acc;
+	}
+	.fo,
+	.kg,
+	.km,
+	.mz,
+	.ns,
+	.on,
+	.ot,
+	.sa{
+		color: #cc7ab1;
+	}
+}
+
+#eq{
+	.mg{
+		color: #e50000;// 7
+	}
+	.cb,
+	.fs,
+	.gm,
+	.ig,
+	.it,
+	.st,
+	.tg{
+		color: #e56000;// 6
+	}
+	.am,
+	.ak,
+	.kn,
+	.ng,
+	.nn,
+	.so,
+	.tk,
+	.ym,
+	.yn{
+		color: #e59900;// 5
+	}
+	.ac,
+	.gf,
+	.hk{
+		color: #f2de00;// 4
+	}
+	.fk,
+	.hg,
+	.ik,
+	.kt,
+	.me,
+	.nr,
+	.os,
+	.sg,
+	.ty{
+		color: #73e500;// 3
+	}
+	.km,
+	.ko,
+	.oy,
+	.sa,
+	.sn,
+	.to,
+	.tt,
+	.wk{
+		color: #00e5bf;// 2
+	}
+	.eh,
+	.fo,
+	.hs,
+	.ka,
+	.kg,
+	.ns,
+	.ot{// 1
 	}
 }

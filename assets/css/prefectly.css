@@ -102,27 +102,153 @@ h1 {
 /** Style customizations
 *************************************/
 .prefectly {
-  background: #f2f2f2;
+  background: #f6f6f6;
   border-radius: 10px;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #e4e4e4;
+  color: #CCC;
 }
 
-#intrideans {
-  color: #b0b0b0;
+#plain {
+  color: #666;
 }
-#intrideans .ca,
-#intrideans .co,
-#intrideans .dc,
-#intrideans .fl,
-#intrideans .ks,
-#intrideans .md,
-#intrideans .mn,
-#intrideans .mi,
-#intrideans .nj,
-#intrideans .ny,
-#intrideans .oh,
-#intrideans .va,
-#intrideans .wa,
-#intrideans .wy {
-  color: #a3d07e;
+
+#visited .am,
+#visited .cb,
+#visited .eh,
+#visited .fs,
+#visited .gf,
+#visited .gm,
+#visited .hk,
+#visited .hs,
+#visited .ig,
+#visited .ik,
+#visited .ka,
+#visited .kg,
+#visited .kn,
+#visited .kt,
+#visited .ng,
+#visited .nr,
+#visited .ns,
+#visited .os,
+#visited .oy,
+#visited .so,
+#visited .st,
+#visited .tk,
+#visited .wy,
+#visited .yg {
+  color: #52a3cc;
+}
+
+#region .hk {
+  color: #e55c5c;
+}
+#region .am,
+#region .ak,
+#region .fs,
+#region .it,
+#region .mg,
+#region .ym {
+  color: #e5a15c;
+}
+#region .cb,
+#region .gm,
+#region .ig,
+#region .kn,
+#region .st,
+#region .tg,
+#region .tk {
+  color: #cccc7a;
+}
+#region .ac,
+#region .fk,
+#region .gf,
+#region .ik,
+#region .ng,
+#region .nn,
+#region .so,
+#region .ty,
+#region .yn {
+  color: #7acc7a;
+}
+#region .hg,
+#region .kt,
+#region .me,
+#region .nr,
+#region .os,
+#region .sg,
+#region .wk {
+  color: #7a88cc;
+}
+#region .hs,
+#region .oy,
+#region .sn,
+#region .tt,
+#region .yg {
+  color: #5c73e5;
+}
+#region .to,
+#region .ka,
+#region .eh,
+#region .ko {
+  color: #b17acc;
+}
+#region .fo,
+#region .kg,
+#region .km,
+#region .mz,
+#region .ns,
+#region .on,
+#region .ot,
+#region .sa {
+  color: #cc7ab1;
+}
+
+#eq .mg {
+  color: #e50000;
+}
+#eq .cb,
+#eq .fs,
+#eq .gm,
+#eq .ig,
+#eq .it,
+#eq .st,
+#eq .tg {
+  color: #e56000;
+}
+#eq .am,
+#eq .ak,
+#eq .kn,
+#eq .ng,
+#eq .nn,
+#eq .so,
+#eq .tk,
+#eq .ym,
+#eq .yn {
+  color: #e59900;
+}
+#eq .ac,
+#eq .gf,
+#eq .hk {
+  color: #f2de00;
+}
+#eq .fk,
+#eq .hg,
+#eq .ik,
+#eq .kt,
+#eq .me,
+#eq .nr,
+#eq .os,
+#eq .sg,
+#eq .ty {
+  color: #73e500;
+}
+#eq .km,
+#eq .ko,
+#eq .oy,
+#eq .sa,
+#eq .sn,
+#eq .to,
+#eq .tt,
+#eq .wk {
+  color: #00e5bf;
 }
