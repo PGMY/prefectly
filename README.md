@@ -30,8 +30,8 @@ Then add this markup to the page:
 ```html
 <ul class="prefectly" id="plain">
 	<li data-pref="ac" class="ac">A</li>
-	<li data-pref="ak" class="ak">B</li>
-	<li data-pref="am" class="am">C</li>
+	<li data-pref="am" class="am">B</li>
+	<li data-pref="at" class="at">C</li>
 	<li data-pref="cb" class="cb">D</li>
 	<li data-pref="eh" class="eh">E</li>
 	<li data-pref="fk" class="fk">F</li>
