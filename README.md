@@ -112,7 +112,7 @@ Style Individual Prefecture:
 If you are not using Sass for your project, you can use and edit the compiled CSS files. The included files have been compiled using the `expanded` output style for readability.
     
     
-##Example
+##Demo
 
 [Prefectly Microsite](http://deform.jp/prefectly/)
   
