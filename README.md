@@ -15,7 +15,7 @@ Prefectly is a symbol font that makes is easy to create a map of the Japan using
 ##What is Prefectly?
 都道府県それぞれは一つのグリフに割り当ててあります。それぞれの都道府県はほかの都道府県に合うように位置とサイズが調整されていて、それらが重なって表示されることで全体の地図を形作ります。
 大文字のAからZと小文字のaからuまでの文字に47都道府県、それらとは別に、yに県境なしの日本地図、zに県境ありの日本地図が割り振ってあります。
-モダンブラウザでは都道府県の略記によるリガチャ(合字)を使用できます。例えば、"st"と入力すれば埼玉県が、"hk"なら北海道[^1]が表示されます。加えて、"jp"のリガチャでは日本地図が表示されます。  
+モダンブラウザでは都道府県の略記によるリガチャ(合字)を使用できます。例えば、"st"と入力すれば埼玉県が、"hk"なら北海道が表示されます。加えて、"jp"のリガチャでは日本地図が表示されます。  
 Each prefecture is a glyph within the font. Each prefecture is positioned and sized relative to the the rest of the prefectures, so that when each character is stacked on top of one another, it creates a full map.
 The pertinent characters are uppercase A-Z and lowercase a-u with lowercase u generating Yamanashi prefecture and lowercase z generating a full Japan map.
 For modern browsers ligatures are available and a prefecture's abbreviation is its ligature. For example, "st" generates the glyph of the prefecture of Saitama and "hk" Hokkaido. Additionally, the ligature "jp" produces a character of the full Japan map.
@@ -111,18 +111,20 @@ Style Individual Prefecture:
 もしプロジェクトにSassを使わない場合は、コンパイル済みのCSSを編集して下さい。同梱したファイルは可読性を考慮して 'expanded' オプションでコンパイルしてあります。  
 If you are not using Sass for your project, you can use and edit the compiled CSS files. The included files have been compiled using the `expanded` output style for readability.
     
-[^1]: 都道府県を表す2桁のアルファベットには[漁船登録番号の識別標](http://ja.wikipedia.org/wiki/%E6%BC%81%E8%88%B9#.E6.BC.81.E8.88.B9.E7.99.BB.E9.8C.B2.E7.95.AA.E5.8F.B7)を使っています。
     
 ##Example
 
 [Prefectly Microsite](http://deform.jp/prefectly/)
+  
+##Reference
+[漁船登録番号の識別標](http://ja.wikipedia.org/wiki/%E6%BC%81%E8%88%B9#.E6.BC.81.E8.88.B9.E7.99.BB.E9.8C.B2.E7.95.AA.E5.8F.B7) - 都道府県を表す2桁のアルファベットコード
 
 ##Resources
 
 [Free Online Font Converter](http://www.freefontconverter.com) - For converting SVG to TTF  
 [Font Squirrel](http://www.fontsquirrel.com/fontface/generator) - For converting TTF to web fonts (make sure you check 'no subsetting')  
 [Intridea Blog: How to Make Your Own Symbol Font](http://www.intridea.com/blog/2012/4/24/symbol-font) - A good starting place
-
+  
 ##Credits
 
 Created by Hiroto Sugita at deform. 
