@@ -15,6 +15,7 @@ Prefectly is a symbol font that makes is easy to create a map of the Japan using
 ##What is Prefectly?
 Each prefecture is a glyph within the font. Each prefecture is positioned and sized relative to the the rest of the prefectures, so that when each character is stacked on top of one another, it creates a full map.
 The pertinent characters are uppercase A-Z and lowercase a-u with lowercase u generating Yamanashi prefecture and lowercase z generating a full Japan map.
+For modern browsers ligatures are available and a prefecture's abbreviation is its ligature. For example, "st" generates the glyph of the prefecture of Saitama and 'hk' Hokkaido. Additionally, the ligature "jp" produces a character of the full Japan map.
 
 ##Basic Use Case
 You can use Prefectly however you like, but some base Sass/CSS and HTML is included.
