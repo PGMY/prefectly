@@ -105,7 +105,7 @@ h1 {
   background: #f6f6f6;
   border-radius: 10px;
   border-top: 1px solid #e4e4e4;
-  color: #CCC;
+  color: #dddddd;
 }
 
 #plain {
@@ -140,7 +140,7 @@ h1 {
 }
 
 #region .hk {
-  color: #e55c5c;
+  color: #e58a8a;
 }
 #region .am,
 #region .at,
@@ -148,7 +148,7 @@ h1 {
 #region .it,
 #region .mg,
 #region .ym {
-  color: #e5a15c;
+  color: #e5ac73;
 }
 #region .cb,
 #region .gm,
@@ -157,7 +157,7 @@ h1 {
 #region .st,
 #region .tg,
 #region .tk {
-  color: #cccc7a;
+  color: #e5e55c;
 }
 #region .ac,
 #region .fk,
@@ -177,20 +177,20 @@ h1 {
 #region .os,
 #region .sg,
 #region .wk {
-  color: #7a88cc;
+  color: #7acccc;
 }
 #region .hs,
 #region .oy,
 #region .sn,
 #region .tt,
 #region .yg {
-  color: #5c73e5;
+  color: #7a96cc;
 }
 #region .to,
 #region .ka,
 #region .eh,
 #region .ko {
-  color: #b17acc;
+  color: #a37acc;
 }
 #region .fo,
 #region .kg,
@@ -200,7 +200,7 @@ h1 {
 #region .on,
 #region .ot,
 #region .sa {
-  color: #cc7ab1;
+  color: #cc7abe;
 }
 
 #eq .mg {
