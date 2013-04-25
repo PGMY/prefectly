@@ -1,6 +1,6 @@
 #Prefectly
-Prefectly はHTMLとCSSを使って日本地図を簡単に表示できるシンボルフォントです。各都道府県はCSSで個別にスタイルをつけられるのでシンプルなビジュアライゼーションに利用できます。そして、フォントなので自由に拡大縮小できます。  
-Prefectly is a symbol font that makes is easy to create a map of the Japan using only HTML and CSS. Each prefecture can be styled independently with CSS for making simple visualizations. And since it's a font, it scales bigger and smaller while staying sharp as a tack.
+Prefectly はHTMLとCSSを使って日本地図を簡単に表示できるシンボルフォントで、アメリカの州をシンボルフォントにした[Stately](http://intridea.github.io/stately/)をベースに作られています。各都道府県はCSSで個別にスタイルがつけられるのでシンプルなビジュアライゼーションに利用できます。そしてもちろん、フォントなので自由にサイズを変更することができます。  
+Prefectly is a symbol font that makes is easy to create a map of the Japan using only HTML and CSS, made based on [Stately](http://intridea.github.io/stately/). Each prefecture can be styled independently with CSS for making simple visualizations. And since it's a font, it scales bigger and smaller while staying sharp as a tack.
 
 
 ##Files
@@ -13,7 +13,7 @@ Prefectly is a symbol font that makes is easy to create a map of the Japan using
     
 
 ##What is Prefectly?
-都道府県それぞれは一つのグリフに割り当ててあります。それぞれの都道府県はほかの都道府県に合うように位置とサイズが調整されていて、それらが重なって表示されることで全体の地図を形作ります。
+都道府県それぞれが一つのグリフに割り当ててあります。それぞれの都道府県はほかの都道府県に合うように位置とサイズが調整されていて、それらが重なって表示されることで全体の地図を形作ります。
 大文字のAからZと小文字のaからuまでの文字に47都道府県、それらとは別に、yに県境なしの日本地図、zに県境ありの日本地図が割り振ってあります。
 モダンブラウザでは都道府県の略記によるリガチャ(合字)を使用できます。例えば、"st"と入力すれば埼玉県が、"hk"なら北海道が表示されます。加えて、"jp"のリガチャでは日本地図が表示されます。  
 Each prefecture is a glyph within the font. Each prefecture is positioned and sized relative to the the rest of the prefectures, so that when each character is stacked on top of one another, it creates a full map.
